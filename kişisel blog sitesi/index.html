@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arda - Modern ve yaratıcı web çözümleri sunan Full Stack Web Geliştirici & UI/UX Tasarımcı. Responsive web tasarım, mobil uyumlu siteler ve kullanıcı dostu arayüzler.">
+    <meta name="keywords" content="web geliştirici, UI/UX tasarımcı, frontend developer, backend developer, full stack developer, web tasarım, yazılım geliştirme, Mersin">
+    <meta name="author" content="Arda">
+    <meta name="theme-color" content="#ff0000">
+    <meta name="msapplication-TileColor" content="#ff0000">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Arda | Web Geliştirici & UI/UX Tasarımcı">
+    <meta property="og:description" content="Modern ve yaratıcı web çözümleri sunan Full Stack Web Geliştirici & UI/UX Tasarımcı">
+    <meta property="og:image" content="./assets/images/og-image.png">
+    
+    <title>Arda | Web Geliştirici & Tasarımcı</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- AOS Animasyon Kütüphanesi -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="loading">
+    <!-- Yükleme Animasyonu -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p>Yükleniyor...</p>
+        </div>
+    </div>
+
+    <!-- Header Bölümü -->
+    <header>
+        <nav>
+            <div class="logo" data-aos="fade-right">
+                <a href="index.html">
+                    <span class="logo-text">ARDA</span>
+                </a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" data-aos="fade-left">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Ana Sayfa</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> Hakkımda</a></li>
+                <li><a href="#services"><i class="fas fa-cog"></i> Hizmetler</a></li>
+                <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portföy</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Bölümü -->
+        <section id="home" class="hero">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-text">
+                    <h1 class="glitch" data-text="Merhaba, Ben Arda">Merhaba, Ben Arda</h1>
+                    <p class="subtitle">Web Geliştirici & UI/UX Tasarımcı</p>
+                    <p class="description">Modern ve kullanıcı dostu web deneyimleri tasarlıyorum.</p>
+                    <div class="cta-buttons">
+                        <a href="#portfolio" class="btn primary">Projelerimi Gör</a>
+                        <a href="#contact" class="btn secondary">İletişime Geç</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hizmetler Bölümü -->
+        <section id="services" class="services" data-aos="fade-up">
+            <h2 class="section-title">Hizmetlerim</h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Geliştirme</h3>
+                    <p>Modern teknolojilerle responsive ve hızlı web siteleri geliştiriyorum.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Tasarım</h3>
+                    <p>Kullanıcı odaklı, modern ve estetik arayüz tasarımları oluşturuyorum.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Tasarım</h3>
+                    <p>Tüm cihazlarda mükemmel görünen web siteleri tasarlıyorum.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hakkımda Bölümü -->
+        <section id="about" class="about" data-aos="fade-up">
+            <h2 class="section-title">Hakkımda</h2>
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3 class="about-subtitle">Web Geliştirici & UI/UX Tasarımcı</h3>
+                        <p class="about-description">
+                            Merhaba! Ben Arda, Mersin'de yaşayan tutkulu bir web geliştiricisi ve UI/UX tasarımcısıyım. 1 yıllık deneyimimle modern web teknolojilerini kullanarak yaratıcı ve kullanıcı dostu dijital çözümler üretiyorum.
+                        </p>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3>Teknik Yetenekler</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">jQuery</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                            <span class="skill-tag">Responsive Design</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-basic">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>iletisim@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Mersin, Türkiye</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portföy Bölümü -->
+        <section id="portfolio" class="portfolio" data-aos="fade-up">
+            <h2 class="section-title">Portföyüm</h2>
+            <div class="portfolio-filters" data-aos="fade-up">
+                <button class="btn filter-btn active" data-filter="all">Tümü</button>
+                <button class="btn filter-btn" data-filter="web">Web Tasarım</button>
+                <button class="btn filter-btn" data-filter="app">Uygulama</button>
+                <button class="btn filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Web Tasarım Projesi -->
+                <div class="portfolio-item" data-category="web" data-aos="fade-up">
+                    <div class="portfolio-content">
+                        <h3>E-Ticaret Web Sitesi</h3>
+                        <p>Modern bir e-ticaret platformu tasarımı ve geliştirmesi</p>
+                        <div class="portfolio-tags">
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="btn view-project">Projeyi İncele</a>
+                    </div>
+                </div>
+
+                <!-- Uygulama Projesi -->
+                <div class="portfolio-item" data-category="app" data-aos="fade-up">
+                    <div class="portfolio-content">
+                        <h3>Task Manager Uygulaması</h3>
+                        <p>Görev yönetimi için geliştirilmiş mobil uygulama</p>
+                        <div class="portfolio-tags">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                        </div>
+                        <a href="#" class="btn view-project">Projeyi İncele</a>
+                    </div>
+                </div>
+
+                <!-- UI/UX Projesi -->
+                <div class="portfolio-item" data-category="ui" data-aos="fade-up">
+                    <div class="portfolio-content">
+                        <h3>Finans Uygulaması UI Tasarımı</h3>
+                        <p>Modern ve kullanıcı dostu finans uygulaması arayüz tasarımı</p>
+                        <div class="portfolio-tags">
+                            <span>Figma</span>
+                            <span>UI Design</span>
+                            <span>Prototyping</span>
+                        </div>
+                        <a href="#" class="btn view-project">Projeyi İncele</a>
+                    </div>
+                </div>
+
+                <!-- Başka bir UI/UX Projesi -->
+                <div class="portfolio-item" data-category="ui" data-aos="fade-up">
+                    <div class="portfolio-content">
+                        <h3>Sağlık Takip Uygulaması</h3>
+                        <p>Sağlık verilerini takip etmek için tasarlanmış uygulama arayüzü</p>
+                        <div class="portfolio-tags">
+                            <span>Adobe XD</span>
+                            <span>UX Research</span>
+                            <span>Wireframing</span>
+                        </div>
+                        <a href="#" class="btn view-project">Projeyi İncele</a>
+                    </div>
+                </div>
+
+                <!-- Başka bir Uygulama Projesi -->
+                <div class="portfolio-item" data-category="app" data-aos="fade-up">
+                    <div class="portfolio-content">
+                        <h3>Sosyal Medya Uygulaması</h3>
+                        <p>Fotoğraf paylaşım odaklı sosyal medya uygulaması</p>
+                        <div class="portfolio-tags">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>GetX</span>
+                        </div>
+                        <a href="#" class="btn view-project">Projeyi İncele</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- İletişim Bölümü -->
+        <section id="contact" class="contact" data-aos="fade-up">
+            <h2 class="section-title">İletişime Geç</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>iletisim@gmail.com</p>
+                        <a href="mailto:iletisim@gmail.com" class="btn contact-btn">Mail Gönder</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Telefon</h3>
+                        <p>+90 555 555 55 55</p>
+                        <a href="tel:+905555555555" class="btn contact-btn">Ara</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Konum</h3>
+                        <p>Mersin, Türkiye</p>
+                        <a href="https://www.google.com/maps/place/Mersin/@36.8120842,34.6414805,13z" target="_blank" rel="noopener noreferrer" class="btn contact-btn">Haritada Gör</a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form" data-aos="fade-left">
+                    <div class="form-header">
+                        <h3>Mesaj Gönder</h3>
+                        <p>Projeleriniz için benimle iletişime geçin</p>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Adınız" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="E-posta Adresiniz" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Konu" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Mesajınız" required></textarea>
+                    </div>
+                    <button type="submit" class="btn submit-btn">
+                        <i class="fas fa-paper-plane"></i> Gönder
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Arda</h3>
+                <p>Web Geliştirici & UI/UX Tasarımcı</p>
+                <div class="socials">
+                    <!-- GitHub -->
+                    <a href="https://github.com/login" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/login" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/i/flow/login" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/accounts/login" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>Hızlı Bağlantılar</h3>
+                <ul>
+                    <li><a href="#home" onclick="scrollToSection('home')">Ana Sayfa</a></li>
+                    <li><a href="#about" onclick="scrollToSection('about')">Hakkımda</a></li>
+                    <li><a href="#services" onclick="scrollToSection('services')">Hizmetler</a></li>
+                    <li><a href="#portfolio" onclick="scrollToSection('portfolio')">Portföy</a></li>
+                    <li><a href="#contact" onclick="scrollToSection('contact')">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>İletişim Bilgileri</h3>
+                <p><i class="fas fa-phone"></i> +90 555 555 55 55</p>
+                <p><i class="fas fa-envelope"></i> iletisim@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Mersin, Türkiye</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Arda. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top" aria-label="Yukarı çık">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
